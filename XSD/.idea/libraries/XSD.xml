@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="XSD">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ejemplo1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Ejemplo2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lastTwenty-20250605.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ejemplo2 (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/mondial pom vacaciones-20250605.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

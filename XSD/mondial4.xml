@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mondial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="mondial4.xsd">
+    <island id="island-Victoria_Island" country="CDN" sea="sea-ArcticOcean">
+        <name>Victoria Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-7 prov-Canada-14"/>
+        <area>212291</area>
+        <longitude>-110.1</longitude>
+        <latitude>70.75</latitude>
+    </island>
+    <island id="island-Banks_Island" country="CDN" sea="sea-ArcticOcean">
+        <name>Banks Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-7"/>
+        <area>70028</area>
+        <longitude>-122.1</longitude>
+        <latitude>72.85</latitude>
+    </island>
+    <island id="island-Prince_of_Wales_Island" country="CDN" sea="sea-ArcticOcean">
+        <name>Prince of Wales Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-14"/>
+        <area>33339</area>
+        <longitude>-98.55</longitude>
+        <latitude>72.6</latitude>
+    </island>
+    <island id="island-Baffin_Island" country="CDN" sea="sea-ArcticOcean sea-LabradorSea sea-HudsonBay">
+        <name>Baffin Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-14"/>
+        <area>507451</area>
+        <elevation>2147</elevation>
+        <longitude>72</longitude>
+        <latitude>69</latitude>
+    </island>
+    <island id="island-Southampton_Island" country="CDN" sea="sea-HudsonBay">
+        <name>Southampton Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-14"/>
+        <area>41214</area>
+        <elevation>625</elevation>
+        <longitude>-84.5</longitude>
+        <latitude>64.5</latitude>
+    </island>
+    <island id="island-Ellesmere_Island" country="CDN" sea="sea-ArcticOcean sea-LabradorSea">
+        <name>Ellesmere Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-14"/>
+        <area>196236</area>
+        <elevation>2616</elevation>
+        <longitude>-79.6</longitude>
+        <latitude>79.25</latitude>
+    </island>
+    <island id="island-Devon_Island" country="CDN" sea="sea-ArcticOcean sea-LabradorSea">
+        <name>Devon Island</name>
+        <islands>Canadian Arctic Islands</islands>
+        <located country="CDN" province="prov-Canada-14"/>
+        <area>55247</area>
+        <elevation>1920</elevation>
+        <longitude>-87.85</longitude>
+        <latitude>75.1</latitude>
+    </island>
+    <island country="SPMI" id="island-SaintPierre" sea="sea-Atlantic">
+        <name>Saint Pierre</name>
+        <area>26</area>
+        <longitude>-56</longitude>
+        <latitude>47</latitude>
+    </island>
+    <island country="SPMI" id="island-Miquelon-Langlade" sea="sea-Atlantic">
+        <name>Miquelon-Langlade</name>
+        <area>205</area>
+        <elevation>240</elevation>
+        <longitude>-56.3</longitude>
+        <latitude>47.1</latitude>
+    </island>
+    <island id="island-Newfoundland" country="CDN" sea="sea-Atlantic">
+        <name>Newfoundland</name>
+        <located country="CDN" province="prov-Canada-6"/>
+        <area>108860</area>
+        <elevation>814</elevation>
+        <longitude>-55.8</longitude>
+        <latitude>48.6</latitude>
+    </island>
+    <island id="island-Prince_Edward_Island" country="CDN" sea="sea-Atlantic">
+        <name>Prince Edward Island</name>
+        <located country="CDN" province="prov-Canada-10"/>
+        <area>5660</area>
+        <elevation>142</elevation>
+        <longitude>-63.4</longitude>
+        <latitude>46.3</latitude>
+    </island>
+    <island id="island-ReneLevasseur" country="CDN" lake="lake-Manicouagan">
+        <name>Rene Levasseur Island</name>
+        <located country="CDN" province="prov-Canada-9"/>
+        <area>2020</area>
+        <elevation>952</elevation>
+        <longitude>-68.7</longitude>
+        <latitude>51.4</latitude>
+    </island>
+    <island id="island-Manitoulin" country="CDN" lake="lake-Lake_Huron">
+        <name>Manitoulin</name>
+        <located country="CDN" province="prov-Canada-9"/>
+        <area>2766</area>
+        <longitude>-82.2</longitude>
+        <latitude>45.75</latitude>
+    </island>
+    <island id="island-Martha_s_Vineyard" country="USA" sea="sea-Atlantic">
+        <name>Marthas Vineyard</name>
+        <located country="USA" province="prov-United-States-22"/>
+        <area>232</area>
+        <longitude>-70.6</longitude>
+        <latitude>41.4</latitude>
+    </island>
+    <island id="island-Nantucket" country="USA" sea="sea-Atlantic">
+        <name>Nantucket</name>
+        <located country="USA" province="prov-United-States-22"/>
+        <area>125</area>
+        <longitude>-70.1</longitude>
+        <latitude>41.5</latitude>
+    </island>
+    <island id="island-LongIsland" country="USA" sea="sea-Atlantic">
+        <name>Long Island</name>
+        <located country="USA" province="prov-United-States-33"/>
+        <area>3566</area>
+        <elevation>122</elevation>
+        <longitude>-73.3</longitude>
+        <latitude>40.8</latitude>
+    </island>
+    <island country="BERM" id="island-GrandBermuda" sea="sea-Atlantic" type="coral">
+        <name>Grand Bermuda</name>
+        <islands>Bermuda Islands</islands>
+        <area>53.3</area>
+        <elevation>79</elevation>
+        <longitude>-64.47</longitude>
+        <latitude>32.17</latitude>
+    </island>
+    <island id="island-NewProvidence" country="BS" sea="sea-Atlantic">
+        <name>New Providence</name>
+        <islands>Bahama Islands</islands>
+        <area>207</area>
+        <longitude>-77.4</longitude>
+        <latitude>25</latitude>
+    </island>
+    <island country="TUCA" id="island-GrandTurk" sea="sea-Atlantic">
+        <name>Grand Turk</name>
+        <islands>Turks and Caicos Islands</islands>
+        <area>14</area>
+        <elevation>20</elevation>
+        <longitude>-71.08</longitude>
+        <latitude>21.28</latitude>
+    </island>
+    <island id="island-Providenciales" country="TUCA" sea="sea-Atlantic">
+        <name>Providenciales</name>
+        <islands>Turks and Caicos Islands</islands>
+        <longitude>-72.3</longitude>
+        <latitude>22</latitude>
+    </island>
+    <island id="island-Nord-Caicos" country="TUCA" sea="sea-Atlantic">
+        <name>North Caicos</name>
+        <islands>Turks and Caicos Islands</islands>
+        <elevation>20</elevation>
+        <longitude>-72.1</longitude>
+        <latitude>22.1</latitude>
+    </island>
+    <island id="island-Cuba" country="C" sea="sea-Caribbean sea-Golf_von_Mexiko sea-Atlantic">
+        <name>Cuba</name>
+        <islands>Greater Antilles</islands>
+        <located country="C" province="prov-Cuba-3 prov-Cuba-4 prov-Cuba-5 prov-Cuba-6 prov-Cuba-7 prov-Cuba-8 prov-Cuba-9 prov-Cuba-10 prov-Cuba-11 prov-Cuba-12 prov-Cuba-13 prov-Cuba-14 prov-Cuba-15"/>
+        <area>105806</area>
+        <elevation>1974</elevation>
+        <longitude>-79</longitude>
+        <latitude>22</latitude>
+    </island>
+    <island id="island-Jamaica" country="JA" sea="sea-Caribbean">
+        <name>Jamaica</name>
+        <islands>Greater Antilles</islands>
+        <area>10991</area>
+        <elevation>2256</elevation>
+        <longitude>-77.3</longitude>
+        <latitude>18.1</latitude>
+    </island>
+    <island id="island-Hispaniola" country="DOM RH" sea="sea-Caribbean sea-Atlantic">
+        <name>Hispaniola</name>
+        <islands>Greater Antilles</islands>
+        <area>76192</area>
+        <elevation>3098</elevation>
+        <longitude>-70.7</longitude>
+        <latitude>19</latitude>
+    </island>
+    <island id="island-PuertoRico" country="PR" sea="sea-Caribbean sea-Atlantic">
+        <name>Puerto Rico</name>
+        <islands>Greater Antilles</islands>
+        <area>8870</area>
+        <elevation>1338</elevation>
+        <longitude>-66.12</longitude>
+        <latitude>18.49</latitude>
+    </island>
+    <island country="BVIR" id="island-Tortola" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Tortola</name>
+        <islands>Lesser Antilles</islands>
+        <area>55</area>
+        <elevation>521</elevation>
+        <longitude>-64.37</longitude>
+        <latitude>18.27</latitude>
+    </island>
+    <island country="VIRG" id="island-SaintThomas" sea="sea-Atlantic sea-Caribbean">
+        <name>Saint Thomas</name>
+        <islands>Lesser Antilles</islands>
+        <area>31</area>
+        <longitude>-64.9</longitude>
+        <latitude>18.3</latitude>
+    </island>
+    <island id="island-Anguilla" country="AXA" sea="sea-Atlantic sea-Caribbean">
+        <name>Anguilla</name>
+        <islands>Lesser Antilles</islands>
+        <area>91</area>
+        <elevation>65</elevation>
+        <longitude>-64</longitude>
+        <latitude>18</latitude>
+    </island>
+    <island id="island-StMartin" country="NA SMAR" sea="sea-Atlantic sea-Caribbean">
+        <name>St. Martin</name>
+        <islands>Lesser Antilles</islands>
+        <area>87</area>
+        <elevation>411</elevation>
+        <longitude>-63.1</longitude>
+        <latitude>18.1</latitude>
+    </island>
+    <island id="island-Saint_Kitts" country="KN" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Saint Kitts</name>
+        <islands>Lesser Antilles</islands>
+        <area>164</area>
+        <elevation>1156</elevation>
+        <longitude>-62.75</longitude>
+        <latitude>17.3</latitude>
+    </island>
+    <island id="island-Nevis" country="KN" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Nevis</name>
+        <islands>Lesser Antilles</islands>
+        <area>93</area>
+        <elevation>985</elevation>
+        <longitude>-62.3</longitude>
+        <latitude>17</latitude>
+    </island>
+    <island id="island-Barbuda" country="AG" sea="sea-Atlantic sea-Caribbean" type="lime">
+        <name>Barbuda</name>
+        <islands>Lesser Antilles</islands>
+        <area>161</area>
+        <elevation>38</elevation>
+        <longitude>-61.4</longitude>
+        <latitude>17.3</latitude>
+    </island>
+    <island id="island-Antigua" country="AG" sea="sea-Atlantic sea-Caribbean">
+        <name>Antigua</name>
+        <islands>Lesser Antilles</islands>
+        <area>281</area>
+        <elevation>400</elevation>
+        <longitude>-61.8</longitude>
+        <latitude>17.05</latitude>
+    </island>
+    <island country="MNTS" id="island-Montserrat" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Montserrat</name>
+        <islands>Lesser Antilles</islands>
+        <area>102</area>
+        <elevation>1050</elevation>
+        <longitude>-62.13</longitude>
+        <latitude>16.42</latitude>
+    </island>
+    <island id="island-Basse-Terre" country="GUAD" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Basse-Terre</name>
+        <islands>Lesser Antilles</islands>
+        <area>848</area>
+        <elevation>1467</elevation>
+        <longitude>-61.8</longitude>
+        <latitude>16.15</latitude>
+    </island>
+    <island id="island-Grande-Terre" country="GUAD" sea="sea-Atlantic sea-Caribbean" type="lime">
+        <name>Grande-Terre</name>
+        <islands>Lesser Antilles</islands>
+        <area>589</area>
+        <elevation>136</elevation>
+        <longitude>-61.4</longitude>
+        <latitude>16.3</latitude>
+    </island>
+    <island id="island-Dominica" country="WD" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Dominica</name>
+        <islands>Lesser Antilles</islands>
+        <area>746</area>
+        <elevation>1447</elevation>
+        <longitude>-61.35</longitude>
+        <latitude>15.4</latitude>
+    </island>
+    <island id="island-Martinique" country="MART" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Martinique</name>
+        <islands>Lesser Antilles</islands>
+        <area>1128</area>
+        <elevation>1397</elevation>
+        <longitude>-61.0</longitude>
+        <latitude>14.6</latitude>
+    </island>
+    <island id="island-Saint_Lucia" country="WL" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Saint Lucia</name>
+        <islands>Lesser Antilles</islands>
+        <area>616</area>
+        <elevation>950</elevation>
+        <longitude>-60.5</longitude>
+        <latitude>14</latitude>
+    </island>
+    <island id="island-Saint_Vincent" country="WV" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Saint Vincent</name>
+        <islands>Lesser Antilles</islands>
+        <area>346</area>
+        <elevation>1300</elevation>
+        <longitude>-61.3</longitude>
+        <latitude>13.25</latitude>
+    </island>
+    <island id="island-Barbados" country="BDS" sea="sea-Atlantic" type="lime">
+        <name>Barbados</name>
+        <islands>Lesser Antilles</islands>
+        <area>430</area>
+        <elevation>336</elevation>
+        <longitude>-59.3</longitude>
+        <latitude>13</latitude>
+    </island>
+    <island id="island-Grenada" country="WG" sea="sea-Atlantic sea-Caribbean" type="volcanic">
+        <name>Grenada</name>
+        <islands>Lesser Antilles</islands>
+        <area>344</area>
+        <elevation>840</elevation>
+        <longitude>-62</longitude>
+        <latitude>12</latitude>
+    </island>
+    <island id="island-Trinidad" country="TT" sea="sea-Atlantic sea-Caribbean">
+        <name>Trinidad</name>
+        <islands>Lesser Antilles</islands>
+        <area>4827</area>
+        <elevation>940</elevation>
+        <longitude>-61.35</longitude>
+        <latitude>10.4</latitude>
+    </island>
+    <island id="island-Tobago" country="TT" sea="sea-Atlantic sea-Caribbean">
+        <name>Tobago</name>
+        <islands>Lesser Antilles</islands>
+        <area>301</area>
+        <elevation>576</elevation>
+        <longitude>-60.7</longitude>
+        <latitude>11.25</latitude>
+    </island>
+    <island country="NA" id="island-Curacao" sea="sea-Caribbean">
+        <name>Curacao</name>
+        <islands>Lesser Antilles</islands>
+        <area>444</area>
+        <elevation>375</elevation>
+        <longitude>-69</longitude>
+        <latitude>12.2</latitude>
+    </island>
+    <island country="NA" id="island-Bonaire" sea="sea-Caribbean">
+        <name>Bonaire</name>
+        <islands>Lesser Antilles</islands>
+        <area>288</area>
+        <elevation>240</elevation>
+        <longitude>-68.3</longitude>
+        <latitude>12.2</latitude>
+    </island>
+    <island country="ARU" id="island-Aruba" sea="sea-Caribbean">
+        <name>Aruba</name>
+        <islands>Lesser Antilles</islands>
+        <area>193</area>
+        <elevation>188</elevation>
+        <longitude>-70.02</longitude>
+        <latitude>12.31</latitude>
+    </island>
+    <island country="CAYM" id="island-GrandCayman" sea="sea-Caribbean">
+        <name>Grand Cayman</name>
+        <islands>Cayman Islands</islands>
+        <area>197</area>
+        <longitude>-81.23</longitude>
+        <latitude>19.18</latitude>
+    </island>
+    <island id="island-Little_Cayman" country="CAYM" sea="sea-Caribbean">
+        <name>Little Cayman</name>
+        <islands>Cayman Islands</islands>
+        <area>20</area>
+        <longitude>-80</longitude>
+        <latitude>19.8</latitude>
+    </island>
+    <island id="island-Cayman_Brac" country="CAYM" sea="sea-Caribbean">
+        <name>Cayman Brac</name>
+        <islands>Cayman Islands</islands>
+        <area>30</area>
+        <longitude>-79.8</longitude>
+        <latitude>19.7</latitude>
+    </island>
+    <island id="island-Ometepe" country="NIC" lake="lake-Nicaragua_See">
+        <name>Isla da Ometepe</name>
+        <area>270</area>
+        <elevation>1700</elevation>
+        <longitude>-85.6</longitude>
+        <latitude>11.5</latitude>
+    </island>
+
+    <island id="island-Unalaska" country="USA" sea="sea-Pacific sea-BeringSea" type="volcanic">
+        <name>Unalaska</name>
+        <islands>Aleutes</islands>
+        <located country="USA" province="prov-United-States-3"/>
+        <area>2721</area>
+        <elevation>2036</elevation>
+        <longitude>-166.5</longitude>
+        <latitude>63.9</latitude>
+    </island>
+    <island id="island-Vancouver_Island" country="CDN" sea="sea-Pacific">
+        <name>Vancouver Island</name>
+        <located country="CDN" province="prov-Canada-3"/>
+        <area>31285</area>
+        <elevation>2195</elevation>
+        <longitude>-125.65</longitude>
+        <latitude>49.6</latitude>
+    </island>
+    <island id="island-Santa_Cruz_Island" country="USA" sea="sea-Pacific">
+        <name>Santa Cruz Island</name>
+        <islands>Californian Channel Islands</islands>
+        <located country="USA" province="prov-United-States-6"/>
+        <area>245</area>
+        <elevation>747</elevation>
+        <longitude>-119.7</longitude>
+        <latitude>34</latitude>
+    </island>
+    <island id="island-Santa_Catalina_Island" country="USA" sea="sea-Pacific">
+        <name>Santa Catalina Island</name>
+        <islands>Californian Channel Islands</islands>
+        <located country="USA" province="prov-United-States-6"/>
+        <area>194</area>
+        <elevation>648</elevation>
+        <longitude>-118.2</longitude>
+        <latitude>33.2</latitude>
+    </island>
+    <island id="island-Santa_Rosa_Island" country="USA" sea="sea-Pacific">
+        <name>Santa Rosa Island</name>
+        <islands>Californian Channel Islands</islands>
+        <located country="USA" province="prov-United-States-6"/>
+        <area>215</area>
+        <elevation>484</elevation>
+        <longitude>-120.1</longitude>
+        <latitude>34</latitude>
+    </island>
+    <island id="island-San_Clemente_Island" country="USA" sea="sea-Pacific">
+        <name>San Clemente Island</name>
+        <islands>Californian Channel Islands</islands>
+        <located country="USA" province="prov-United-States-6"/>
+        <area>147</area>
+        <elevation>599</elevation>
+        <longitude>-118.5</longitude>
+        <latitude>33</latitude>
+    </island>
+    <island id="island-San_Miguel_Island" country="USA" sea="sea-Pacific">
+        <name>San Miguel Island</name>
+        <islands>Californian Channel Islands</islands>
+        <located country="USA" province="prov-United-States-6"/>
+        <area>37</area>
+        <elevation>259</elevation>
+        <longitude>-120.4</longitude>
+        <latitude>33</latitude>
+    </island>
+    <island id="island-Isabela" country="EC" sea="sea-Pacific" type="volcanic">
+        <name>Isabela</name>
+        <islands>Galapagos</islands>
+        <area>5436</area>
+        <elevation>1707</elevation>
+        <longitude>-91.3</longitude>
+        <latitude>-1</latitude>
+    </island>
+
+    <island id="island-Niihau" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Niihau</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>178</area>
+        <elevation>381</elevation>
+        <longitude>-160.1</longitude>
+        <latitude>21.9</latitude>
+    </island>
+    <island id="island-Kauai" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Kauai</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>1433</area>
+        <elevation>1598</elevation>
+        <longitude>-159.5</longitude>
+        <latitude>22</latitude>
+    </island>
+    <island id="island-Oahu" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Oahu</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>1557</area>
+        <elevation>1225</elevation>
+        <longitude>-158</longitude>
+        <latitude>21.5</latitude>
+    </island>
+    <island id="island-Molokai" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Molokai</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>676</area>
+        <elevation>1512</elevation>
+        <longitude>-157</longitude>
+        <latitude>21.1</latitude>
+    </island>
+    <island id="island-Lanai" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Lanai</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>364</area>
+        <elevation>1027</elevation>
+        <longitude>-157</longitude>
+        <latitude>20.5</latitude>
+    </island>
+    <island id="island-Maui" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Maui</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>1883</area>
+        <elevation>3055</elevation>
+        <longitude>-156.3</longitude>
+        <latitude>20.7</latitude>
+    </island>
+    <island id="island-Hawaii" country="USA" sea="sea-Pacific" type="volcanic">
+        <name>Hawaii</name>
+        <islands>Hawaii Islands</islands>
+        <located country="USA" province="prov-United-States-12"/>
+        <area>10450</area>
+        <elevation>4214</elevation>
+        <longitude>-155.5</longitude>
+        <latitude>19.6</latitude>
+    </island>
+
+    <island country="NIUE" id="island-Niue" sea="sea-Pacific" type="coral">
+        <name>Niue</name>
+        <area>260</area>
+        <elevation>67</elevation>
+        <longitude>-169.55</longitude>
+        <latitude>-19.01</latitude>
+    </island>
+    <island country="NMIS" id="island-Saipan" sea="sea-Pacific" type="volcanic">
+        <name>Saipan</name>
+        <islands>Mariana Islands</islands>
+        <area>115</area>
+        <elevation>474</elevation>
+        <longitude>145.75</longitude>
+        <latitude>15.2</latitude>
+    </island>
+    <island country="NMIS" id="island-Tinian" sea="sea-Pacific">
+        <name>Tinian</name>
+        <islands>Mariana Islands</islands>
+        <area>101</area>
+        <elevation>171</elevation>
+        <longitude>145.6</longitude>
+        <latitude>15</latitude>
+    </island>
+    <island country="NMIS" id="island-Rota" sea="sea-Pacific">
+        <name>Rota</name>
+        <islands>Mariana Islands</islands>
+        <area>85</area>
+        <elevation>495</elevation>
+        <longitude>145.2</longitude>
+        <latitude>15.15</latitude>
+    </island>
+    <island country="PITC" id="island-Pitcairn" sea="sea-Pacific" type="volcanic">
+        <name>Pitcairn</name>
+        <islands>Pitcairn Islands</islands>
+        <area>4.5</area>
+        <elevation>347</elevation>
+        <longitude>-130.05</longitude>
+        <latitude>-25.04</latitude>
+    </island>
+    <island country="WAFU" id="island-Uvea" sea="sea-Pacific" type="volcanic">
+        <name>Uvea</name>
+        <islands>Wallis Islands</islands>
+        <area>90</area>
+        <elevation>131</elevation>
+        <longitude>-176.2</longitude>
+        <latitude>-13.16</latitude>
+    </island>
+    <island country="WAFU" id="island-Futuna" sea="sea-Pacific" type="volcanic">
+        <name>Futuna</name>
+        <islands>Futuna Islands</islands>
+        <area>64</area>
+        <elevation>524</elevation>
+        <longitude>-178.1</longitude>
+        <latitude>-14.3</latitude>
+    </island>
+    <island id="island-Tarawa" country="KIR" sea="sea-Pacific" type="atoll">
+        <name>Tarawa</name>
+        <islands>Gilbert Islands</islands>
+        <longitude>173</longitude>
+        <latitude>1.4</latitude>
+    </island>
+    <island id="island-Tongatapu" country="TO" sea="sea-Pacific" type="coral">
+        <name>Tongatapu</name>
+        <islands>Tonga Islands</islands>
+        <area>260</area>
+        <elevation>65</elevation>
+        <longitude>-175.15</longitude>
+        <latitude>-21.2</latitude>
+    </island>
+    <island id="island-VitiLevu" country="FJI" sea="sea-Pacific" type="volcanic">
+        <name>Viti Levu</name>
+        <islands>Fiji Islands</islands>
+        <area>10429</area>
+        <elevation>1394</elevation>
+        <longitude>178</longitude>
+        <latitude>-17.8</latitude>
+    </island>
+    <island id="island-VanuaLevu" country="FJI" sea="sea-Pacific" type="volcanic">
+        <name>Vanua Levu</name>
+        <islands>Fiji Islands</islands>
+        <area>5500</area>
+        <elevation>1111</elevation>
+        <longitude>179.25</longitude>
+        <latitude>-16.35</latitude>
+    </island>
+    <island id="island-Norfolk" country="NORF" sea="sea-Pacific" type="volcanic">
+        <name>Norfolk Island</name>
+        <area>34</area>
+        <elevation>318</elevation>
+        <longitude>168</longitude>
+        <latitude>-29</latitude>
+    </island>
+    <island id="island-Nauru" country="NAU" sea="sea-Pacific" type="coral">
+        <name>Nauru</name>
+        <area>21</area>
+        <elevation>60</elevation>
+        <longitude>167</longitude>
+        <latitude>-1</latitude>
+    </island>
+    <island id="island-Koror" country="PAL" sea="sea-Pacific" type="volcanic">
+        <name>Koror</name>
+        <islands>Carolines</islands>
+        <area>8</area>
+        <elevation>100</elevation>
+        <longitude>134.5</longitude>
+        <latitude>7.3</latitude>
+    </island>
+    <island id="island-Babelthuap" country="PAL" sea="sea-Pacific" type="volcanic">
+        <name>Babelthuap</name>
+        <islands>Carolines</islands>
+        <area>8</area>
+        <elevation>331</elevation>
+        <longitude>134.6</longitude>
+        <latitude>7.5</latitude>
+    </island>
+    <island id="island-Fongafale" country="TUV" sea="sea-Pacific" type="atoll">
+        <name>Fongafale</name>
+        <islands>Ellice Islands</islands>
+        <area>2.8</area>
+        <longitude>179.1</longitude>
+        <latitude>-8.5</latitude>
+    </island>
+    <island id="island-Efate" country="VU" sea="sea-Pacific">
+        <name>Efate</name>
+        <islands>Vanuatu</islands>
+        <area>900</area>
+        <elevation>647</elevation>
+        <longitude>168.4</longitude>
+        <latitude>-17.8</latitude>
+    </island>
+    <island id="island-Upolu" country="WS" sea="sea-Pacific" type="volcanic">
+        <name>Upolu</name>
+        <islands>Samoan Islands</islands>
+        <area>1125</area>
+        <elevation>1158</elevation>
+        <longitude>-171.75</longitude>
+        <latitude>-13.9</latitude>
+    </island>
+    <island id="island-Savaii" country="WS" sea="sea-Pacific" type="volcanic">
+        <name>Savaii</name>
+        <islands>Samoan Islands</islands>
+        <area>1707</area>
+        <elevation>1858</elevation>
+        <longitude>-172.4</longitude>
+        <latitude>-13.6</latitude>
+    </island>
+    <island country="AMSA" id="island-Tutuila" sea="sea-Pacific" type="volcanic">
+        <name>Tutuila</name>
+        <islands>Samoan Islands</islands>
+        <area>135</area>
+        <elevation>653</elevation>
+        <longitude>-170.42</longitude>
+        <latitude>-14.16</latitude>
+    </island>
+    <island country="COOK" id="island-Rarotonga" sea="sea-Pacific" type="volcanic">
+        <name>Rarotonga</name>
+        <islands>Cook Islands</islands>
+        <area>67</area>
+        <elevation>658</elevation>
+        <longitude>-159.46</longitude>
+        <latitude>-21.12</latitude>
+    </island>
+    <island country="FPOL" id="island-Tahiti" sea="sea-Pacific" type="volcanic">
+        <name>Tahiti</name>
+        <islands>Polynesian Islands</islands>
+        <area>1045</area>
+        <elevation>2241</elevation>
+        <longitude>-149.34</longitude>
+        <latitude>-17.32</latitude>
+    </island>
+    <island country="GUAM" id="island-Guam" sea="sea-Pacific" type="coral">
+        <name>Guam</name>
+        <islands>Mariana Islands</islands>
+        <area>541</area>
+        <longitude>144.7</longitude>
+        <latitude>13.4</latitude>
+    </island>
+    <island country="MH" id="island-Majuro" sea="sea-Pacific" type="atoll">
+        <name>Majuro</name>
+        <islands>Marshall Islands</islands>
+        <area>9.2</area>
+        <longitude>171.4</longitude>
+        <latitude>7.1</latitude>
+    </island>
+    <island country="FSM" id="island-Ponape" sea="sea-Pacific" type="volcanic">
+        <name>Ponape</name>
+        <islands>Micronesian Islands</islands>
+        <area>336</area>
+        <elevation>782</elevation>
+        <longitude>158.2</longitude>
+        <latitude>6.85</latitude>
+    </island>
+    <island country="RCH" id="island-Osterinsel" sea="sea-Pacific" type="volcanic">
+        <name>Osterinsel</name>
+        <located country="RCH" province="prov-Chile-5"/>
+        <area>163</area>
+        <elevation>507</elevation>
+        <longitude>-109.35</longitude>
+        <latitude>-27.1</latitude>
+    </island>
+    <island country="NZ" id="island-TeIkaAMaui" sea="sea-Pacific">
+        <name>Te Ika-a-Maui (North Island)</name>
+        <islands>New Zealand</islands>
+        <area>114597</area>
+        <elevation>2797</elevation>
+        <longitude>175.7</longitude>
+        <latitude>-38.4</latitude>
+    </island>
+    <island country="NZ" id="island-TeWakaAMaui" sea="sea-Pacific">
+        <name>Te Waka-a-Maui (South Island)</name>
+        <islands>New Zealand</islands>
+        <area>151757</area>
+        <elevation>3754</elevation>
+        <longitude>170.4</longitude>
+        <latitude>-44</latitude>
+    </island>
+
+    <mountain id="mount-Hvannadalshnukur" country="IS" type="volcanic" island="island-Iceland">
+        <name>Hvannadalshnukur</name>
+        <elevation>2110</elevation>
+        <longitude>-16.7</longitude>
+        <latitude>64.1</latitude>
+    </mountain>
+    <mountain id="mount-Snaefell" country="IS" type="volcanic" island="island-Iceland">
+        <name>Snaefell</name>
+        <elevation>1833</elevation>
+        <longitude>-15.2</longitude>
+        <latitude>64.5</latitude>
+    </mountain>
+    <mountain id="mount-Hekla" country="IS" type="volcano" island="island-Iceland">
+        <name>Hekla</name>
+        <elevation>1491</elevation>
+        <longitude>-19.7</longitude>
+        <latitude>64</latitude>
+    </mountain>
+    <mountain id="mount-Katla" country="IS" type="volcano" island="island-Iceland">
+        <name>Katla</name>
+        <elevation>1450</elevation>
+        <longitude>-19.0</longitude>
+        <latitude>63.6</latitude>
+    </mountain>
+    <mountain id="mount-Haltiatunturi" country="SF">
+        <name>Haltiatunturi</name>
+        <located country="SF" province="lteil-LAP-SF"/>
+        <elevation>1328</elevation>
+        <longitude>21.4</longitude>
+        <latitude>67</latitude>
+    </mountain>
+    <mountain id="mount-Kebnekaise" country="S">
+        <name>Kebnekaise</name>
+        <located country="S" province="prov-Sweden-15"/>
+        <elevation>2114</elevation>
+        <longitude>18.3</longitude>
+        <latitude>67.5</latitude>
+    </mountain>
+    <mountain id="mount-Sarektjokko" country="S">
+        <name>Sarektjokko</name>
+        <located country="S" province="prov-Sweden-15"/>
+        <elevation>2090</elevation>
+        <longitude>17.4</longitude>
+        <latitude>67.3</latitude>
+    </mountain>
+    <mountain id="mount-Portefjaellen" country="S">
+        <name>Portefjaellen</name>
+        <located country="S" province="prov-Sweden-15"/>
+        <elevation>2021</elevation>
+        <longitude>17.4</longitude>
+        <latitude>67.1</latitude>
+    </mountain>
+    <mountain id="mount-Tarrekaise" country="S">
+        <name>Tarrekaise</name>
+        <located country="S" province="prov-Sweden-15"/>
+        <elevation>1850</elevation>
+        <longitude>17.3</longitude>
+        <latitude>67</latitude>
+    </mountain>
+    <mountain id="mount-Sulitjelma" country="N S">
+        <name>Sulitjelma</name>
+        <located country="N" province="lteil-NO-N"/>
+        <located country="S" province="prov-Sweden-15"/>
+        <elevation>1914</elevation>
+        <longitude>16.2</longitude>
+        <latitude>67.1</latitude>
+    </mountain>
+    <mountain id="mount-Galdhoeppig" country="N">
+        <name>Galdhoeppig</name>
+        <located country="N" province="lteil-OP-N"/>
+        <elevation>2469</elevation>
+        <longitude>8</longitude>
+        <latitude>61.4</latitude>
+    </mountain>
+    <mountain id="mount-Jostedalsbre" country="N">
+        <name>Jostedalsbre</name>
+        <located country="N" province="lteil-SF-N"/>
+        <elevation>2083</elevation>
+        <longitude>5.5</longitude>
+        <latitude>61.4</latitude>
+    </mountain>
+    <mountain id="mount-Glittertind" country="N">
+        <name>Glittertind</name>
+        <located country="N" province="lteil-OP-N"/>
+        <elevation>2452</elevation>
+        <longitude>8.1</longitude>
+        <latitude>61.4</latitude>
+    </mountain>
+    <mountain id="mount-Joekul" country="N">
+        <name>Joekul</name>
+        <located country="N" province="lteil-HO-N"/>
+        <elevation>1876</elevation>
+        <longitude>7.2</longitude>
+        <latitude>60.3</latitude>
+    </mountain>
+    <mountain id="mount-Snoehetta" country="N">
+        <name>Snoehetta</name>
+        <located country="N" province="lteil-OP-N"/>
+        <elevation>2286</elevation>
+        <longitude>9</longitude>
+        <latitude>62.1</latitude>
+    </mountain>
+    <mountain id="mount-BenNevis" country="GB" island="island-GreatBritain">
+        <name>Ben Nevis</name>
+        <mountains>Grampians</mountains>
+        <located country="GB" province="prov-gb-10"/>
+        <elevation>1344</elevation>
+        <longitude>-5.0</longitude>
+        <latitude>56.8</latitude>
+    </mountain>
+
+    <mountain id="mount-Feldberg" country="D">
+        <name>Feldberg</name>
+        <mountains>Black Forest</mountains>
+        <located country="D" province="prov-Germany-2"/>
+        <elevation>1493</elevation>
+        <longitude>7.5</longitude>
+        <latitude>47.5</latitude>
+    </mountain>
+    <mountain id="mount-Brocken" country="D">
+        <name>Brocken</name>
+        <mountains>Harz</mountains>
+        <located country="D" province="prov-Germany-15"/>
+        <elevation>1141</elevation>
+        <longitude>10.6</longitude>
+        <latitude>51.8</latitude>
+    </mountain>
+    <mountain id="mount-Grosser_Arber" country="D">
+        <name>Grosser Arber</name>
+        <mountains>Bayrischer Wald</mountains>
+        <located country="D" province="prov-Germany-3"/>
+        <elevation>1456</elevation>
+        <longitude>13</longitude>
+        <latitude>49.1</latitude>
+    </mountain>
+    <mountain id="mount-Zugspitze" country="D A">
+        <name>Zugspitze</name>
+        <mountains>Alps</mountains>
+        <located country="D" province="prov-Germany-3"/>
+        <located country="A" province="prov-Austria-7"/>
+        <elevation>2963</elevation>
+        <longitude>11.1</longitude>
+        <latitude>47.3</latitude>
+    </mountain>
+    <mountain id="mount-MontBlanc" country="F I">
+        <name>Mont Blanc</name>
+        <mountains>Alps</mountains>
+        <located country="F" province="prov-France-111"/>
+        <located country="I" province="prov-Italy-9"/>
+        <elevation>4808</elevation>
+        <longitude>6.8</longitude>
+        <latitude>45.8</latitude>
+    </mountain>
+    <mountain id="mount-Ecrins" country="F">
+        <name>Barre des Ecrins</name>
+        <mountains>Alps</mountains>
+        <located country="F" province="prov-France-111"/>
+        <elevation>4101</elevation>
+        <longitude>6.3</longitude>
+        <latitude>44.9</latitude>
+    </mountain>
+    <mountain id="mount-GrandCombin" country="CH">
+        <name>Grand Combin</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-24"/>
+        <elevation>4314</elevation>
+        <longitude>7.3</longitude>
+        <latitude>45.9</latitude>
+    </mountain>
+    <mountain id="mount-Matterhorn" country="CH I">
+        <name>Matterhorn</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-24"/>
+        <located country="I" province="prov-Italy-9"/>
+        <elevation>4478</elevation>
+        <longitude>7.56</longitude>
+        <latitude>46</latitude>
+    </mountain>
+    <mountain id="mount-MonteRosa" country="CH I">
+        <name>Monte Rosa</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-24"/>
+        <located country="I" province="prov-Italy-9 prov-Italy-10"/>
+        <elevation>4634</elevation>
+        <longitude>7.9</longitude>
+        <latitude>45.9</latitude>
+    </mountain>
+    <mountain id="mount-Finsteraarhorn" country="CH">
+        <name>Finsteraarhorn</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-5 prov-Switzerland-24"/>
+        <elevation>4274</elevation>
+        <longitude>8.1</longitude>
+        <latitude>46.5</latitude>
+    </mountain>
+    <mountain id="mount-GranParadiso" country="I">
+        <name>Gran Paradiso</name>
+        <mountains>Alps</mountains>
+        <located country="I" province="prov-Italy-9 prov-Italy-2"/>
+        <elevation>4061</elevation>
+        <longitude>7.25</longitude>
+        <latitude>45.5</latitude>
+    </mountain>
+    <mountain id="mount-PizBernina" country="CH I">
+        <name>Piz Bernina</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-11"/>
+        <located country="I" province="prov-Italy-10"/>
+        <elevation>4048</elevation>
+        <longitude>9.9</longitude>
+        <latitude>46.4</latitude>
+    </mountain>
+    <mountain id="mount-Crap_Sogn_Gion" country="CH">
+        <name>Crap Sogn Gion</name>
+        <mountains>Alps</mountains>
+        <located country="CH" province="prov-Switzerland-11"/>
+        <elevation>2228</elevation>
+        <longitude>9.2</longitude>
+        <latitude>46.85</latitude>
+    </mountain>
+    <mountain id="mount-Marmolata" country="I">
+        <name>Marmolata</name>
+        <mountains>Alps</mountains>
+        <located country="I" province="prov-Italy-20 prov-Italy-23"/>
+        <elevation>3343</elevation>
+        <longitude>11.85</longitude>
+        <latitude>46.4</latitude>
+    </mountain>
+    <mountain id="mount-Grossglockner" country="A">
+        <name>Grossglockner</name>
+        <mountains>Alps</mountains>
+        <located country="A" province="prov-Austria-3"/>
+        <elevation>3797</elevation>
+        <longitude>12.5</longitude>
+        <latitude>47</latitude>
+    </mountain>
+    <mountain id="mount-Hochgolling" country="A">
+        <name>Hochgolling</name>
+        <mountains>Alps</mountains>
+        <located country="A" province="prov-Austria-8 prov-Austria-9"/>
+        <elevation>2862</elevation>
+        <longitude>13.75</longitude>
+        <latitude>47.3</latitude>
+    </mountain>
+    <mountain id="mount-GrandBallon" country="F">
+        <name>Grand Ballon</name>
+        <mountains>Vosges</mountains>
+        <located country="F" province="prov-France-2 prov-France-72"/>
+        <elevation>1424</elevation>
+        <longitude>7.1</longitude>
+        <latitude>47.9</latitude>
+    </mountain>
+    <mountain id="mount-PuyDeDome" country="F" type="volcanic">
+        <name>Puy De Dome</name>
+        <mountains>Cevennes</mountains>
+        <located country="F" province="prov-France-11"/>
+        <elevation>1465</elevation>
+        <longitude>3</longitude>
+        <latitude>45.8</latitude>
+    </mountain>
+    <mountain id="mount-PuydeSancy" country="F" type="volcanic">
+        <name>Puy de Sancy</name>
+        <mountains>Cevennes</mountains>
+        <located country="F" province="prov-France-11"/>
+        <elevation>1885</elevation>
+        <longitude>2.8</longitude>
+        <latitude>45.5</latitude>
+    </mountain>
+    <mountain id="mount-Vignemale" country="E F">
+        <name>Vignemale</name>
+        <mountains>Pyrenees</mountains>
+        <located country="E" province="prov-Spain-3"/>
+        <located country="F" province="prov-France-77"/>
+        <elevation>3298</elevation>
+        <longitude>0.15</longitude>
+        <latitude>42.8</latitude>
+    </mountain>
+    <mountain id="mount-Aneto" country="E">
+        <name>Pico de Aneto</name>
+        <mountains>Pyrenees</mountains>
+        <located country="E" province="prov-Spain-3"/>
+        <elevation>3404</elevation>
+        <longitude>0.65</longitude>
+        <latitude>42.6</latitude>
+    </mountain>
+    <mountain id="mount-TorredeCerredo" country="E">
+        <name>Torre de Cerredo</name>
+        <mountains>Cordillera Cantabrica</mountains>
+        <located country="E" province="prov-Spain-4 prov-Spain-9"/>
+        <elevation>2648</elevation>
+        <longitude>4.85</longitude>
+        <latitude>43.2</latitude>
+    </mountain>
+    <mountain id="mount-PicoAlmanzor" country="E">
+        <name>Pico de Almanzor</name>
+        <mountains>Cordillera Central</mountains>
+        <located country="E" province="prov-Spain-9"/>
+        <elevation>2648</elevation>
+        <longitude>-5.3</longitude>
+        <latitude>40.25</latitude>
+    </mountain>
+    <mountain id="mount-Moncayo" country="E">
+        <name>Moncayo</name>
+        <mountains>Cordillera Iberica</mountains>
+        <located country="E" province="prov-Spain-3 prov-Spain-9"/>
+        <elevation>2313</elevation>
+        <longitude>1.85</longitude>
+        <latitude>41.8</latitude>
+    </mountain>
+    <mountain id="mount-Mulhacen" country="E">
+        <name>Mulhacen</name>
+        <mountains>Cordillera Betica</mountains>
+        <located country="E" province="prov-Spain-2"/>
+        <elevation>3482</elevation>
+        <longitude>3.3</longitude>
+        <latitude>37</latitude>
+    </mountain>
+    <mountain id="mount-TorreEstrela" country="P">
+        <name>Torre de Estrela</name>
+        <mountains>Cordillera Central</mountains>
+        <located country="P" province="prov-Portugal-10"/>
+        <elevation>1993</elevation>
+        <longitude>-7.6</longitude>
+        <latitude>40.3</latitude>
+    </mountain>
+    <mountain id="mount-Cinto" country="F" island="island-Corse">
+        <name>Monte Cinto</name>
+        <mountains>Corse</mountains>
+        <located country="F" province="prov-France-42"/>
+        <elevation>2706</elevation>
+        <longitude>8.9</longitude>
+        <latitude>42.4</latitude>
+    </mountain>
+    <mountain id="mount-GranSasso" country="I">
+        <name>Gran Sasso</name>
+        <mountains>Apennin</mountains>
+        <located country="I" province="prov-Italy-74"/>
+        <elevation>2912</elevation>
+        <longitude>13.55</longitude>
+        <latitude>42.5</latitude>
+    </mountain>
+    <mountain id="mount-Falterona" country="I">
+        <name>Monte Falterona</name>
+        <mountains>Apennin</mountains>
+        <located country="I" province="prov-Italy-50 prov-Italy-41"/>
+        <elevation>1654</elevation>
+        <longitude>11.7</longitude>
+        <latitude>43.9</latitude>
+    </mountain>
+    <mountain id="mount-Vesuv" country="I" type="volcano" last_eruption="1944-03-18">
+        <name>Vesuv</name>
+        <located country="I" province="prov-Italy-82"/>
+        <elevation>1281</elevation>
+        <longitude>14.4</longitude>
+        <latitude>40.8</latitude>
+    </mountain>
+    <mountain id="mount-Etna" country="I" type="volcano" island="island-Sicilia">
+        <name>Etna</name>
+        <located country="I" province="prov-Italy-101"/>
+        <elevation>3323</elevation>
+        <longitude>15.0</longitude>
+        <latitude>37.7</latitude>
+    </mountain>
+
+    <mountain id="mount-Schneekoppe" country="CZ PL">
+        <name>Schneekoppe</name>
+        <mountains>Sudety Mountains</mountains>
+        <located country="CZ" province="prov-Czech-Republic-7"/>
+        <located country="PL" province="prov-PL-1"/>
+        <elevation>1602</elevation>
+        <longitude>15.7</longitude>
+        <latitude>50.7</latitude>
+    </mountain>
+    <mountain id="mount-GerlachovskyStit" country="SK">
+        <name>Gerlachovsky Stit</name>
+        <mountains>Beskides</mountains>
+        <located country="SK" province="prov-Slovakia-5"/>
+        <elevation>2655</elevation>
+        <longitude>20.1</longitude>
+        <latitude>49.2</latitude>
+    </mountain>
+    <mountain id="mount-Moldoveanu" country="RO">
+        <name>Moldoveanu</name>
+        <mountains>Karpaten</mountains>
+        <located country="RO" province="prov-Romania-4 prov-Romania-10 prov-Romania-35"/>
+        <elevation>2544</elevation>
+        <longitude>24.7</longitude>
+        <latitude>45.6</latitude>
+    </mountain>
+    <mountain id="mount-Musala" country="BG">
+        <name>Musala</name>
+        <mountains>Balkan</mountains>
+        <elevation>2925</elevation>
+        <longitude>23.6</longitude>
+        <latitude>42.2</latitude>
+    </mountain>
+    <mountain id="mount-Jezerce" country="AL">
+        <name>Jezerce</name>
+        <mountains>Balkan</mountains>
+        <elevation>2694</elevation>
+        <longitude>19.4</longitude>
+        <latitude>42.3</latitude>
+    </mountain>
+    <mountain id="mount-Korab" country="AL MK">
+        <name>Korab</name>
+        <mountains>Balkan</mountains>
+        <elevation>2751</elevation>
+        <longitude>20.3</longitude>
+        <latitude>41.4</latitude>
+    </mountain>
+    <mountain id="mount-Olymp" country="GR">
+        <name>Olymp</name>
+        <located country="GR" province="prov-Greece-13 prov-Greece-8"/>
+        <elevation>2917</elevation>
+        <longitude>22.35</longitude>
+        <latitude>40.1</latitude>
+    </mountain>
+    <mountain id="mount-Psiloritis" country="GR" island="island-Crete">
+        <name>Psiloritis</name>
+        <mountains>Crete</mountains>
+        <located country="GR" province="prov-Greece-9"/>
+        <elevation>2456</elevation>
+        <longitude>24.7</longitude>
+        <latitude>35.2</latitude>
+    </mountain>
+    <mountain id="mount-Olympos" country="CY" island="island-Cyprus">
+        <name>Olympos</name>
+        <mountains>Troodos</mountains>
+        <elevation>1952</elevation>
+        <longitude>32.85</longitude>
+        <latitude>34.9</latitude>
+    </mountain>
+    <mountain id="mount-Teide" country="E" type="volcano" island="island-Teneriffa">
+        <name>Pico de Teide</name>
+        <mountains>Canary Islands</mountains>
+        <located country="E" province="prov-Spain-7"/>
+        <elevation>3718</elevation>
+        <longitude>-16.6</longitude>
+        <latitude>28.3</latitude>
+    </mountain>
+    <mountain id="mount-PicoNieves" country="E" type="volcano" island="island-Gran_Canaria">
+        <name>Pico de los Nieves</name>
+        <mountains>Canary Islands</mountains>
+        <located country="E" province="prov-Spain-7"/>
+        <elevation>1949</elevation>
+        <longitude>-15.6</longitude>
+        <latitude>25.95</latitude>
+    </mountain>
+    <mountain id="mount-RoqueMuchachos" country="E" type="volcano" island="island-La_Palma">
+        <name>Roque de los Muchachos</name>
+        <mountains>Canary Islands</mountains>
+        <located country="E" province="prov-Spain-7"/>
+        <elevation>2426</elevation>
+        <longitude>-17.9</longitude>
+        <latitude>28.75</latitude>
+    </mountain>
+    <mountain id="mountain-PicoRuivo" country="P" island="island-Madeira" type="volcanic">
+        <name>Pico Ruivo</name>
+        <mountains>Madeira</mountains>
+        <located country="P" province="prov-Portugal-22"/>
+        <elevation>1861</elevation>
+        <longitude>-16</longitude>
+        <latitude>31</latitude>
+    </mountain>
+    <mountain id="mountain-Pico" country="P" type="volcano" island="island-Pico">
+        <name>Pico</name>
+        <mountains>Azores</mountains>
+        <located country="P" province="prov-Portugal-21"/>
+        <elevation>2351</elevation>
+        <longitude>-28.4</longitude>
+        <latitude>38.5</latitude>
+    </mountain>
+    <mountain id="mountain-Fogo" country="CV" type="volcano" island="island-Fogo">
+        <name>Fogo</name>
+        <mountains>Cape Verdes</mountains>
+        <elevation>2829</elevation>
+        <longitude>-24.4</longitude>
+        <latitude>14.95</latitude>
+    </mountain>
+    <mountain id="mount-Tubkhal" country="MA">
+        <name>Tubkhal</name>
+        <mountains>Atlas</mountains>
+        <located country="MA" province="prov-MA-4 prov-MA-7"/>
+        <elevation>4165</elevation>
+        <longitude>-8</longitude>
+        <latitude>31</latitude>
+    </mountain>
+    <mountain id="mount-Djebel_Aures" country="MA">
+        <name>Djebel Aures</name>
+        <mountains>Rif</mountains>
+        <located country="MA" province="prov-MA-15 prov-MA-16"/>
+        <elevation>2456</elevation>
+        <longitude>-6.5</longitude>
+        <latitude>35.5</latitude>
+    </mountain>
+    <mountain id="mount-Tahat" country="DZ" type="volcanic">
+        <name>Tahat</name>
+        <mountains>Ahaggar</mountains>
+        <elevation>3003</elevation>
+        <longitude>5.5</longitude>
+        <latitude>23.3</latitude>
+    </mountain>
+    <mountain id="mount-Tamgak" country="RN" type="volcanic">
+        <name>Tamgak</name>
+        <mountains>Azbine</mountains>
+        <located country="RN" province="prov-RN-1"/>
+        <elevation>1800</elevation>
+        <longitude>9</longitude>
+        <latitude>19</latitude>
+    </mountain>
+    <mountain id="mount-MtGreboun" country="RN">
+        <name>Mont Greboun</name>
+        <mountains>Azbine</mountains>
+        <located country="RN" province="prov-RN-1"/>
+        <elevation>1944</elevation>
+        <longitude>9</longitude>
+        <latitude>20</latitude>
+    </mountain>
+    <mountain id="mount-Emi_Kussi" country="TCH" type="volcano">
+        <name>Emi Kussi</name>
+        <mountains>Tibesti</mountains>
+        <elevation>3415</elevation>
+        <longitude>18.5</longitude>
+        <latitude>20</latitude>
+    </mountain>
+    <mountain id="mount-Djebel_Marra" country="SUD" type="volcanic">
+        <name>Jabal Marra</name>
+        <mountains>Darfur</mountains>
+        <located country="SUD" province="prov-Sudan-4"/>
+        <elevation>3088</elevation>
+        <longitude>24.6</longitude>
+        <latitude>13</latitude>
+    </mountain>
+    <mountain id="mount-DjebelKatrina" country="ET">
+        <name>Jabal Katrina</name>
+        <mountains>Sinai</mountains>
+        <located country="ET" province="prov-Egypt-5"/>
+        <elevation>2637</elevation>
+        <longitude>33.95</longitude>
+        <latitude>28.5</latitude>
+    </mountain>
+    <mountain id="mount-AsoRock" country="WAN" type="monolith">
+        <name>Aso Rock</name>
+        <located country="WAN" province="prov-WAN-2"/>
+        <elevation>400</elevation>
+        <longitude>7.5</longitude>
+        <latitude>9.05</latitude>
+    </mountain>
+    <mountain id="mount-Fako" country="CAM" type="volcano">
+        <name>Fako</name>
+        <located country="CAM" province="prov-Cameroon-11"/>
+        <elevation>4095</elevation>
+        <longitude>9.2</longitude>
+        <latitude>4.2</latitude>
+    </mountain>
+    <mountain id="mount-Basile" country="GQ" island="island-Bioko" type="volcano">
+        <name>Pico Basile</name>
+        <elevation>3011</elevation>
+        <longitude>8.7</longitude>
+        <latitude>3.5</latitude>
+    </mountain>
+    <mountain id="mount-PicoSaoTome" country="STP" island="island-Sao_Tome" type="volcanic">
+        <name>Pico de Sao Tome</name>
+        <elevation>2024</elevation>
+        <longitude>6.6</longitude>
+        <latitude>0.2</latitude>
+    </mountain>
+    <mountain id="mount-QueenMarysPeak" country="HELX" island="island-TristanDaCunha" type="volcano">
+        <name>Queen Marys Peak</name>
+        <elevation>2062</elevation>
+        <longitude>-12.3</longitude>
+        <latitude>-37.1</latitude>
+    </mountain>
+    <mountain id="mount-Ras_Daschan" country="ETH" type="volcanic">
+        <name>Ras Daschan Terara</name>
+        <mountains>Amhara</mountains>
+        <located country="ETH" province="prov-ETH-3"/>
+        <elevation>4533</elevation>
+        <longitude>38.4</longitude>
+        <latitude>13.2</latitude>
+    </mountain>
+    <mountain id="mount-Ruwenzori" country="EAU ZRE">
+        <name>Ruwenzori</name>
+        <mountains>East African Rift</mountains>
+        <located country="ZRE" province="prov-Zaire-8"/>
+        <elevation>5109</elevation>
+        <longitude>29.9</longitude>
+        <latitude>0.4</latitude>
+    </mountain>
+    <mountain id="mount-Elgon" country="EAK EAU" type="volcanic">
+        <name>Elgon</name>
+        <mountains>East African Rift</mountains>
+        <located country="EAK" province="prov-Kenya-9"/>
+        <elevation>4321</elevation>
+        <longitude>34.55</longitude>
+        <latitude>1.1</latitude>
+    </mountain>
+    <mountain id="mount-Kenia" country="EAK" type="volcanic">
+        <name>Kenia</name>
+        <mountains>East African Rift</mountains>
+        <located country="EAK" province="prov-Kenya-4"/>
+        <elevation>5199</elevation>
+        <longitude>37.3</longitude>
+        <latitude>0.15</latitude>
+    </mountain>
+    <mountain id="mount-Kilimanscharo" country="EAT" type="volcano">
+        <name>Kilimanjaro</name>
+        <mountains>East African Rift</mountains>
+        <located country="EAT" province="prov-Tanzania-4"/>
+        <elevation>5895</elevation>
+        <longitude>37.35</longitude>
+        <latitude>-3.05</latitude>
+    </mountain>
+    <mountain id="mount-Mawenzi" country="EAT" type="volcano">
+        <name>Mawenzi</name>
+        <mountains>East African Rift</mountains>
+        <located country="EAT" province="prov-Tanzania-4"/>
+        <elevation>5148</elevation>
+        <longitude>37.45</longitude>
+        <latitude>-3.1</latitude>
+    </mountain>
+    <mountain id="mount-Meru" country="EAT" type="volcano">
+        <name>Meru</name>
+        <mountains>East African Rift</mountains>
+        <located country="EAT" province="prov-Tanzania-3"/>
+        <elevation>4567</elevation>
+        <longitude>36.8</longitude>
+        <latitude>-3.2</latitude>
+    </mountain>
+    <mountain id="mount-Karisimbi" country="ZRE RWA" type="volcano">
+        <name>Karisimbi</name>
+        <mountains>East African Rift</mountains>
+        <located country="ZRE" province="prov-Zaire-8"/>
+        <elevation>4507</elevation>
+        <longitude>29.45</longitude>
+        <latitude>-1.5</latitude>
+    </mountain>
+    <mountain id="mount-ThabanaNtlenyana" country="LS">
+        <name>Thabana Ntlenyana</name>
+        <mountains>Drakensberge</mountains>
+        <elevation>3482</elevation>
+        <longitude>29.3</longitude>
+        <latitude>-29.5</latitude>
+    </mountain>
+    <mountain id="mount-Cathkin-Peak" country="RSA">
+        <name>Cathkin Peak</name>
+        <mountains>Drakensberge</mountains>
+        <located country="RSA" province="prov-South-Africa-5"/>
+        <elevation>3181</elevation>
+        <longitude>29.35</longitude>
+        <latitude>-29.1</latitude>
+    </mountain>
+    <mountain id="mount-Tsaratanana" country="RM" type="volcanic" island="island-Madagaskar">
+        <name>Tsaratanana</name>
+        <located country="RM" province="prov-Madagascar-2"/>
+        <elevation>2876</elevation>
+        <longitude>48.5</longitude>
+        <latitude>-14</latitude>
+    </mountain>
+    <mountain id="mount-Tsiafajavona" country="RM" type="volcanic" island="island-Madagaskar">
+        <name>Tsiafajavona</name>
+        <located country="RM" province="prov-Madagascar-3"/>
+        <elevation>2642</elevation>
+        <longitude>47.2</longitude>
+        <latitude>-19.3</latitude>
+    </mountain>
+    <mountain id="mount-Andringitra" country="RM" type="volcanic" island="island-Madagaskar">
+        <name>Andringitra</name>
+        <located country="RM" province="prov-Madagascar-4"/>
+        <elevation>2658</elevation>
+        <longitude>47</longitude>
+        <latitude>-22.5</latitude>
+    </mountain>
+    <mountain id="mount-PitonDeNeiges" country="REUN" type="volcanic" island="island-Reunion">
+        <name>Piton des Neiges</name>
+        <elevation>3069</elevation>
+        <longitude>55.5</longitude>
+        <latitude>-21.1</latitude>
+    </mountain>
+    <mountain id="mount-PitonDeLaFournaise" country="REUN" type="volcano" island="island-Reunion">
+        <name>Piton de la Fournaise</name>
+        <elevation>2631</elevation>
+        <longitude>55.7</longitude>
+        <latitude>-21.2</latitude>
+    </mountain>
+    <mountain id="mount-Karthala" country="COM" type="volcano" island="island-Gr_Komoro">
+        <name>Karthala</name>
+        <elevation>2361</elevation>
+        <longitude>43.35</longitude>
+        <latitude>-11.75</latitude>
+    </mountain>
+
+    <mountain id="mount-RomanKosch" country="UA">
+        <name>Roman Kosch</name>
+        <mountains>Crimean Mountains</mountains>
+        <located country="UA" province="prov-Ukraine-27"/>
+        <elevation>1545</elevation>
+        <longitude>34.25</longitude>
+        <latitude>44.61</latitude>
+    </mountain>
+    <mountain id="mount-Narodnaja" country="R">
+        <name>Narodnaja</name>
+        <mountains>Ural</mountains>
+        <located country="R" province="prov-Russia-4"/>
+        <elevation>1895</elevation>
+        <longitude>60.1</longitude>
+        <latitude>65.0</latitude>
+    </mountain>
+    <mountain id="mount-Demirkazik" country="TR">
+        <name>Demirkazik</name>
+        <mountains>Taurus</mountains>
+        <located country="TR" province="prov-Turkey-57"/>
+        <elevation>3756</elevation>
+        <longitude>35.2</longitude>
+        <latitude>37.8</latitude>
+    </mountain>
+    <mountain id="mount-Ararat" country="TR" type="volcanic">
+        <name>Ararat</name>
+        <mountains>Kurdistan</mountains>
+        <located country="TR" province="prov-Turkey-5"/>
+        <elevation>5165</elevation>
+        <longitude>44.3</longitude>
+        <latitude>39.7</latitude>
+    </mountain>
+    <mountain id="mount-JabalLubnan" country="RL">
+        <name>Jabal Lubnan</name>
+        <mountains>Lebanon</mountains>
+        <elevation>3088</elevation>
+        <longitude>36.1</longitude>
+        <latitude>34.3</latitude>
+    </mountain>
+    <mountain id="mount-Elbrus" country="R" type="volcanic">
+        <name>Elbrus</name>
+        <mountains>Kaukasus</mountains>
+        <located country="R" province="prov-Russia-55"/>
+        <elevation>5642</elevation>
+        <longitude>42.26</longitude>
+        <latitude>43.21</latitude>
+    </mountain>
+    <mountain id="mount-Dychtau" country="R">
+        <name>Dychtau</name>
+        <mountains>Kaukasus</mountains>
+        <located country="R" province="prov-Russia-55"/>
+        <elevation>5204</elevation>
+        <longitude>43.13</longitude>
+        <latitude>43.05</latitude>
+    </mountain>
+    <mountain id="mount-Schchara" country="R GE">
+        <name>Schchara</name>
+        <mountains>Kaukasus</mountains>
+        <located country="R" province="prov-Russia-55"/>
+        <elevation>5200</elevation>
+        <longitude>43.10</longitude>
+        <latitude>43.00</latitude>
+    </mountain>
+    <mountain id="mount-Kasbek" country="R GE" type="volcanic">
+        <name>Kasbek</name>
+        <mountains>Kaukasus</mountains>
+        <located country="R" province="prov-Russia-57"/>
+        <elevation>5033</elevation>
+        <longitude>44.31</longitude>
+        <latitude>42.42</latitude>
+    </mountain>
+    <mountain id="mount-zachwoa" country="R">
+        <name>Zachwoa</name>
+        <mountains>Kaukasus</mountains>
+        <located country="R" province="prov-Russia-53"/>
+        <elevation>3345</elevation>
+        <longitude>40.2</longitude>
+        <latitude>43.7</latitude>
+    </mountain>
+    <mountain id="mount-Damavand" country="IR" type="volcano">
+        <name>Damavand</name>
+        <mountains>Elburs</mountains>
+        <located country="IR" province="prov-Iran-20"/>
+        <elevation>5610</elevation>
+        <longitude>52.1</longitude>
+        <latitude>35.95</latitude>
+    </mountain>
+    <mountain id="mount-Sabalan" country="IR" type="volcanic">
+        <name>Sabalan</name>
+        <mountains>Kurdistan</mountains>
+        <located country="IR" province="prov-Iran-3"/>
+        <elevation>4811</elevation>
+        <longitude>47.8</longitude>
+        <latitude>38.3</latitude>
+    </mountain>
+    <mountain id="mount-ZardKuh" country="IR">
+        <name>Zard Kuh</name>
+        <mountains>Zagros</mountains>
+        <located country="IR" province="prov-Iran-7"/>
+        <elevation>4550</elevation>
+        <longitude>50.1</longitude>
+        <latitude>32.35</latitude>
+    </mountain>
+    <mountain id="mount-JabalShuayb" country="YE">
+        <name>Jabal Shuayb</name>
+        <elevation>3760</elevation>
+        <longitude>44</longitude>
+        <latitude>15.5</latitude>
+    </mountain>
+    <mountain id="mount-Dodabetta" country="IND">
+        <name>Dodabetta</name>
+        <mountains>West Ghats</mountains>
+        <located country="IND" province="prov-India-23"/>
+        <elevation>2636</elevation>
+        <longitude>76.7</longitude>
+        <latitude>11.4</latitude>
+    </mountain>
+    <mountain id="mount-Pidurutalagala" country="CL">
+        <name>Pidurutalagala</name>
+        <elevation>2524</elevation>
+        <longitude>80.8</longitude>
+        <latitude>7</latitude>
+    </mountain>
+    <mountain id="mount-Zhima" country="R" island="island-Olkhon">
+        <name>Zhima</name>
+        <located country="R" province="prov-Russia-72"/>
+        <elevation>1276</elevation>
+        <longitude>107.4</longitude>
+        <latitude>53.15</latitude>
+    </mountain>
+    <mountain id="mount-Bjelucha" country="R KAZ">
+        <name>Bjelucha</name>
+        <mountains>Altai</mountains>
+        <located country="R" province="prov-Russia-64"/>
+        <located country="KAZ" province="prov-Kazakstan-15"/>
+        <elevation>4506</elevation>
+        <longitude>86.4</longitude>
+        <latitude>49.48</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Chan-Tengri" country="KAZ KGZ CN">
+        <name>Pik Chan-Tengri</name>
+        <mountains>Tian Shan</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="KAZ" province="prov-Kazakstan-2"/>
+        <elevation>7010</elevation>
+        <longitude>80.16</longitude>
+        <latitude>42.20</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Pobeda" country="CN KGZ">
+        <name>Pik Pobeda</name>
+        <mountains>Tian Shan</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <elevation>7439</elevation>
+        <longitude>80.1</longitude>
+        <latitude>42.0</latitude>
+    </mountain>
+    <mountain id="mount-LiushiShan" country="CN">
+        <name>Liushi Shan</name>
+        <mountains>Kunlun</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>7167</elevation>
+        <longitude>80.9</longitude>
+        <latitude>35.3</latitude>
+    </mountain>
+    <mountain id="mount-UlugMuztag" country="CN">
+        <name>Ulug Muztag</name>
+        <mountains>Kunlun</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>6973</elevation>
+        <longitude>87.4</longitude>
+        <latitude>36.4</latitude>
+    </mountain>
+    <mountain id="mount-Kongur" country="CN">
+        <name>Kongur</name>
+        <mountains>Pamir</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <elevation>7649</elevation>
+        <longitude>75.35</longitude>
+        <latitude>38.65</latitude>
+    </mountain>
+    <mountain id="mount-Muztagata" country="CN">
+        <name>Muztagata</name>
+        <mountains>Pamir</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <elevation>7509</elevation>
+        <longitude>75.1</longitude>
+        <latitude>38.27</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Kommunismus" country="TAD">
+        <name>Pik Ismoil Somoni</name>
+        <mountains>Pamir</mountains>
+        <located country="TAD" province="prov-Tajikistan-6"/>
+        <elevation>7495</elevation>
+        <longitude>72</longitude>
+        <latitude>39</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Lenin" country="TAD KGZ">
+        <name>Pik Lenina</name>
+        <mountains>Pamir</mountains>
+        <located country="TAD" province="prov-Tajikistan-6"/>
+        <elevation>7134</elevation>
+        <longitude>72.90</longitude>
+        <latitude>39.35</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Revoluzija" country="TAD">
+        <name>Pik Revoluzija</name>
+        <mountains>Pamir</mountains>
+        <located country="TAD" province="prov-Tajikistan-6"/>
+        <elevation>6940</elevation>
+        <longitude>72.2</longitude>
+        <latitude>38.3</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Moskwa" country="TAD">
+        <name>Pik Moskva</name>
+        <mountains>Pamir</mountains>
+        <located country="TAD" province="prov-Tajikistan-6"/>
+        <elevation>6785</elevation>
+        <longitude>71.5</longitude>
+        <latitude>39</latitude>
+    </mountain>
+    <mountain id="mount-Pik_Karl-Marx" country="TAD">
+        <name>Pik Karl-Marx</name>
+        <mountains>Pamir</mountains>
+        <located country="TAD" province="prov-Tajikistan-6"/>
+        <elevation>6726</elevation>
+        <longitude>72.5</longitude>
+        <latitude>37.16</latitude>
+    </mountain>
+    <mountain id="mount-TirichMir" country="PK">
+        <name>Tirich Mir</name>
+        <mountains>Hindukusch</mountains>
+        <located country="PK" province="prov-PK-6"/>
+        <elevation>7708</elevation>
+        <longitude>71.8</longitude>
+        <latitude>36.25</latitude>
+    </mountain>
+    <mountain id="mount-K2" country="PK CN">
+        <name>K2</name>
+        <mountains>Karakorum</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="PK" province="prov-PK-5"/>
+        <elevation>8611</elevation>
+        <longitude>76.5</longitude>
+        <latitude>35.9</latitude>
+    </mountain>
+    <mountain id="mount-BroadPeak" country="PK CN">
+        <name>Broad Peak</name>
+        <mountains>Karakorum</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="PK" province="prov-PK-5"/>
+        <elevation>8051</elevation>
+        <longitude>76.6</longitude>
+        <latitude>35.8</latitude>
+    </mountain>
+    <mountain id="mount-GasherbrumI" country="PK CN">
+        <name>Gasherbrum I</name>
+        <mountains>Karakorum</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="PK" province="prov-PK-5"/>
+        <elevation>8080</elevation>
+        <longitude>76.7</longitude>
+        <latitude>35.6</latitude>
+    </mountain>
+    <mountain id="mount-GasherbrumII" country="PK CN">
+        <name>Gasherbrum II</name>
+        <mountains>Karakorum</mountains>
+        <located country="CN" province="prov-China-28"/>
+        <located country="PK" province="prov-PK-5"/>
+        <elevation>8034</elevation>
+        <longitude>76.65</longitude>
+        <latitude>35.75</latitude>
+    </mountain>
+    <mountain id="mount-NangaParbat" country="PK">
+        <name>Nanga Parbat</name>
+        <mountains>Himalaya</mountains>
+        <located country="PK" province="prov-PK-5"/>
+        <elevation>8125</elevation>
+        <longitude>74.6</longitude>
+        <latitude>35.2</latitude>
+    </mountain>
+    <mountain id="mount-NandaDevi" country="IND">
+        <name>Nanda Devi</name>
+        <mountains>Himalaya</mountains>
+        <located country="IND" province="prov-India-25"/>
+        <elevation>7816</elevation>
+        <longitude>80</longitude>
+        <latitude>30.4</latitude>
+    </mountain>
+    <mountain id="mount-Dhaulagiri" country="NEP">
+        <name>Dhaulagiri</name>
+        <mountains>Himalaya</mountains>
+        <elevation>8167</elevation>
+        <longitude>83.5</longitude>
+        <latitude>28.7</latitude>
+    </mountain>
+    <mountain id="mount-Annapurna" country="NEP">
+        <name>Annapurna</name>
+        <mountains>Himalaya</mountains>
+        <elevation>8091</elevation>
+        <longitude>83.8</longitude>
+        <latitude>28.6</latitude>
+    </mountain>
+    <mountain id="mount-Manaslu" country="NEP">
+        <name>Manaslu</name>
+        <mountains>Himalaya</mountains>
+        <elevation>8163</elevation>
+        <longitude>84.6</longitude>
+        <latitude>28.55</latitude>
+    </mountain>
+    <mountain id="mount-Shishapangma" country="CN">
+        <name>Shishapangma</name>
+        <mountains>Himalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>8027</elevation>
+        <longitude>85.8</longitude>
+        <latitude>28.55</latitude>
+    </mountain>
+    <mountain id="mount-Kailash" country="CN">
+        <name>Kailash</name>
+        <mountains>Transhimalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>6638</elevation>
+        <longitude>81.3</longitude>
+        <latitude>31.1</latitude>
+    </mountain>
+    <mountain id="mount-ChoOyu" country="CN NEP">
+        <name>Cho Oyu</name>
+        <mountains>Himalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>8188</elevation>
+        <longitude>86.65</longitude>
+        <latitude>28.35</latitude>
+    </mountain>
+    <mountain id="mount-Mount_Everest" country="CN NEP">
+        <name>Mount Everest</name>
+        <mountains>Himalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>8848</elevation>
+        <longitude>86.9</longitude>
+        <latitude>28</latitude>
+    </mountain>
+    <mountain id="mount-Lhotse" country="CN NEP">
+        <name>Lhotse</name>
+        <mountains>Himalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>8516</elevation>
+        <longitude>86.9</longitude>
+        <latitude>28</latitude>
+    </mountain>
+    <mountain id="mount-Makalu" country="CN NEP">
+        <name>Makalu</name>
+        <mountains>Himalaya</mountains>
+        <located country="CN" province="prov-China-29"/>
+        <elevation>8485</elevation>
+        <longitude>87.1</longitude>
+        <latitude>27.9</latitude>
+    </mountain>
+    <mountain id="mount-Kangchendzonga" country="NEP IND">
+        <name>Kangchendzonga</name>
+        <mountains>Himalaya</mountains>
+        <located country="IND" province="prov-India-22"/>
+        <elevation>8586</elevation>
+        <longitude>88.1</longitude>
+        <latitude>27.7</latitude>
+    </mountain>
+    <mountain id="mount-KljutschewskajaSopka" country="R" type="volcano">
+        <name>Kljutschewskaja Sopka</name>
+        <mountains>Kamchatka</mountains>
+        <located country="R" province="prov-Russia-87"/>
+        <elevation>4750</elevation>
+        <longitude>160.6</longitude>
+        <latitude>56.1</latitude>
+    </mountain>
+    <mountain id="mount-ChanbaiShan" country="CN NOK">
+        <name>Changbai Shan</name>
+        <mountains>Changbai</mountains>
+        <located country="CN" province="prov-China-15"/>
+        <elevation>2744</elevation>
+        <longitude>128.1</longitude>
+        <latitude>42</latitude>
+    </mountain>
+
+    <mountain id="mount-AsahiDake" country="J" type="volcanic" island="island-Hokkaido">
+        <name>Asahi-Dake</name>
+        <located country="J" province="prov-Japan-3"/>
+        <elevation>2290</elevation>
+        <longitude>142.85</longitude>
+        <latitude>43.65</latitude>
+    </mountain>
+    <mountain id="mount-Fuji" country="J" type="volcano">
+        <name>Fujisan</name>
+        <located country="J" province="prov-Japan-24 prov-Japan-27"/>
+        <elevation>3776</elevation>
+        <longitude>139</longitude>
+        <latitude>35</latitude>
+    </mountain>
+    <mountain id="mount-Hotaka-Dake" country="J" type="volcano">
+        <name>Hotaka-Dake</name>
+        <located country="J" province="prov-Japan-25 prov-Japan-26"/>
+        <elevation>3190</elevation>
+        <longitude>138</longitude>
+        <latitude>36</latitude>
+    </mountain>
+    <mountain id="mount-YuShan" country="RC" island="island-Taiwan">
+        <name>Yu Shan</name>
+        <elevation>3950</elevation>
+        <longitude>121</longitude>
+        <latitude>23.5</latitude>
+    </mountain>
+    <mountain id="mount-Pulog" country="RP" type="volcanic" island="island-Luzon">
+        <name>Pulog</name>
+        <located country="RP" province="prov-RP-1 prov-RP-14"/>
+        <elevation>2928</elevation>
+        <longitude>121</longitude>
+        <latitude>17</latitude>
+    </mountain>
+    <mountain id="mount-Pinatubo" country="RP" type="volcano" island="island-Luzon" last_eruption="1991-06-15">
+        <name>Pinatubo</name>
+        <located country="RP" province="prov-RP-3"/>
+        <elevation>1486</elevation>
+        <longitude>120.3</longitude>
+        <latitude>15.1</latitude>
+    </mountain>
+    <mountain id="mount-Apo" country="RP" type="volcanic" island="island-Mindanao">
+        <name>Mount Apo</name>
+        <located country="RP" province="prov-RP-11 prov-RP-12"/>
+        <elevation>2954</elevation>
+        <longitude>125.45</longitude>
+        <latitude>7</latitude>
+    </mountain>
+    <mountain id="mount-Kanlaon" country="RP" type="volcano" island="island-Negros">
+        <name>Kanlaon</name>
+        <located country="RP" province="prov-RP-6 prov-RP-7"/>
+        <elevation>2435</elevation>
+        <longitude>123.1</longitude>
+        <latitude>10.4</latitude>
+    </mountain>
+    <mountain id="mount-Mantalingajan" country="RP" type="volcanic" island="island-Palawan">
+        <name>Mantalingajan</name>
+        <located country="RP" province="prov-RP-17"/>
+        <elevation>2085</elevation>
+        <longitude>118.4</longitude>
+        <latitude>9.7</latitude>
+    </mountain>
+    <mountain id="mount-Kinabalu" country="MAL" island="island-Borneo" type="granite">
+        <name>Kinabalu</name>
+        <located country="MAL" province="prov-Malaysia-11"/>
+        <elevation>4101</elevation>
+        <longitude>116.5</longitude>
+        <latitude>6.1</latitude>
+    </mountain>
+    <mountain id="mount-Tahan" country="MAL">
+        <name>Tahan</name>
+        <located country="MAL" province="prov-Malaysia-4 prov-Malaysia-7"/>
+        <elevation>2190</elevation>
+        <longitude>108</longitude>
+        <latitude>4</latitude>
+    </mountain>
+    <mountain id="mount-Leuser" country="RI" type="volcanic" island="island-Sumatra">
+        <name>Leuser</name>
+        <located country="RI" province="prov-RI-1"/>
+        <elevation>3466</elevation>
+        <longitude>98</longitude>
+        <latitude>3</latitude>
+    </mountain>
+    <mountain id="mount-Kerinci" country="RI" type="volcano" island="island-Sumatra">
+        <name>Kerinci</name>
+        <located country="RI" province="prov-RI-3"/>
+        <elevation>3805</elevation>
+        <longitude>101.45</longitude>
+        <latitude>-1.7</latitude>
+    </mountain>
+    <mountain id="mount-Krakatau" country="RI" type="volcano" island="island-Krakatau">
+        <name>Krakatau</name>
+        <located country="RI" province="prov-RI-8"/>
+        <elevation>813</elevation>
+        <longitude>105.4</longitude>
+        <latitude>-6.1</latitude>
+    </mountain>
+    <mountain id="mount-Merapi" country="RI" type="volcano" island="island-Java">
+        <name>Merapi</name>
+        <located country="RI" province="prov-RI-13"/>
+        <elevation>2914</elevation>
+        <longitude>110.4</longitude>
+        <latitude>-7.5</latitude>
+    </mountain>
+</mondial>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mondial" type="mondialType"/>
+  <xs:complexType name="indep_dateType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="from"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="encompassedType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="continent"/>
+        <xs:attribute type="tipo-percentaje" name="percentage"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ethnicgroupType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="tipo-percentaje" name="percentage" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="religionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="tipo-percentaje" name="percentage" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="borderType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="tipo-country" name="country" use="optional"/>
+        <xs:attribute type="tipo-length" name="length" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="populationType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="tipo-ano" name="year" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="cityType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="tipo-longitude" name="longitude"/>
+      <xs:element type="tipo-latitude" name="latitude"/>
+      <xs:element type="populationType" name="population"/>
+      <xs:element type="located_atType" name="located_at" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="is_country_cap" use="optional"/>
+    <xs:attribute type="xs:string" name="country" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="located_atType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="watertype" use="optional"/>
+        <xs:attribute type="xs:string" name="lake" use="optional"/>
+        <xs:attribute type="xs:string" name="sea" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="countryType">
+    <xs:sequence maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:integer" name="population"/>
+      <xs:element type="xs:decimal" name="population_growth"/>
+      <xs:element type="xs:decimal" name="infant_mortality"/>
+      <xs:element type="xs:integer" name="gdp_total"/>
+      <xs:element type="xs:integer" name="gdp_agri"/>
+      <xs:element type="xs:integer" name="inflation"/>
+      <xs:element type="indep_dateType" name="indep_date"/>
+      <xs:element type="xs:string" name="government"/>
+      <xs:element type="encompassedType" name="encompassed"/>
+      <xs:element type="ethnicgroupType" name="ethnicgroup" maxOccurs="unbounded" />
+      <xs:element type="religionType" name="religion" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="borderType" name="border" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="cityType" name="city" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="tipo-car_code" name="car_code"/>
+    <xs:attribute type="tipo-area" name="area"/>
+    <xs:attribute type="xs:string" name="capital" use="required"/>
+    <xs:attribute type="xs:string" name="memberships"/>
+  </xs:complexType>
+
+  <xs:complexType name="mondialType">
+    <xs:sequence>
+      <xs:element type="countryType" name="country" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Restricciones -->
+
+  <xs:simpleType name="tipo-longitude">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="1"/>
+      <xs:maxInclusive value="180"/>
+      <xs:minExclusive value="-180"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipo-percentaje">
+    <xs:restriction base="xs:integer">
+      <xs:minExclusive value="0"/>
+      <xs:maxInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipo-country">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipo-length">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipo-ano">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipo-latitude">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="1"/>
+      <xs:minInclusive value="-90"/>
+      <xs:maxInclusive value="90"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipo-area">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipo-car_code">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vacaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="vacaciones.xsd">
+
+    <destino identificador="p023" tipo="unico">
+        <titulo>Paris, la ciudad del amor</titulo>
+        <ciudad>Paris</ciudad>
+        <fecha_salida>
+            <dia>13</dia>
+            <mes>marzo</mes>
+            <anio>2013</anio>
+        </fecha_salida>
+        <duracion dias="si">6</duracion>
+        <viaje forma="avion"/>
+        <estancias>
+            <hotel estrellas="4">macuya</hotel>
+            <excursiones>
+                <cultura dia="1">Louvre</cultura>
+                <historia dia="2">versalles</historia>
+                <ocio dia="4">moulin rouge</ocio>
+                <otros dia="5">torre eiffel</otros>
+            </excursiones>
+        </estancias>
+    </destino>
+
+    <destino identificador="m036" tipo="unico">
+        <titulo>Islas Baleares, ahí mismo</titulo>
+        <ciudad>Palma de mallorca</ciudad>
+        <ciudad>Ibiza</ciudad>
+        <fecha_salida>
+            <dia>22</dia>
+            <mes>abril</mes>
+            <anio>2013</anio>
+        </fecha_salida>
+        <duracion dias="si">5</duracion>
+        <viaje forma="autobus"/>
+        <viaje forma="barco"/>
+        <estancias>
+            <hotel estrellas="2">fuentevino</hotel>
+            <hotel estrellas="3">tresarazos</hotel>
+            <excursiones>
+                <historia dia="2">Cuevas del Drac</historia>
+                <ocio dia="4">Noche ibizenca</ocio>
+            </excursiones>
+        </estancias>
+    </destino>
+
+    <destino identificador="i07" tipo="pack">
+        <titulo>Italia, en si misma</titulo>
+        <ciudad>Milan</ciudad>
+        <ciudad>Florencia</ciudad>
+        <ciudad>Roma</ciudad>
+        <ciudad>Napoles</ciudad>
+        <fecha_salida>
+            <dia>13</dia>
+            <mes>agosto</mes>
+            <anio>2013</anio>
+        </fecha_salida>
+        <duracion dias="si">12</duracion>
+        <viaje forma="avion"/>
+        <viaje forma="autobus"/>
+        <estancias>
+            <hotel estrellas="3">mortareilo</hotel>
+            <hotel estrellas="2">sisa da roca</hotel>
+            <hotel estrellas="5">a gatti</hotel>
+            <hotel estrellas="3">la nostra</hotel>
+            <excursiones>
+                <cultura dia="2">La última cena</cultura>
+                <cultura dia="4">galerias ufitti</cultura>
+                <historia dia="6">roma</historia>
+                <historia dia="11">pompella</historia>
+                <ocio dia="3">opera</ocio>
+            </excursiones>
+        </estancias>
+    </destino>
+
+    <destino identificador="a456" tipo="unico">
+        <titulo>Amsterdan, la venecia del norte</titulo>
+        <ciudad>Amsterdan</ciudad>
+        <fecha_salida>
+            <dia>17</dia>
+            <mes>agosto</mes>
+            <anio>2013</anio>
+        </fecha_salida>
+        <duracion dias="si">4</duracion>
+        <viaje forma="avion"/>
+        <estancias>
+            <hotel estrellas="3">the sounders</hotel>
+            <excursiones>
+                <historia dia="2">visita a un molino de viento</historia>
+                <ocio dia="3">Heineken</ocio>
+            </excursiones>
+        </estancias>
+    </destino>
+
+    <destino identificador="n046" tipo="pack">
+        <titulo>Los secretos del nilo</titulo>
+        <ciudad>El cairo</ciudad>
+        <ciudad>Omdurmán</ciudad>
+        <ciudad>Jartúm</ciudad>
+        <ciudad>Juba</ciudad>
+        <fecha_salida>
+            <dia>3</dia>
+            <mes>septiembre</mes>
+            <anio>2013</anio>
+        </fecha_salida>
+        <duracion dias="si">9</duracion>
+        <viaje forma="avion"/>
+        <viaje forma="barco"/>
+        <estancias>
+            <excursiones>
+                <historia dia="2">piramides</historia>
+                <historia dia="4">templos</historia>
+                <historia dia="7">museo de historia ejipcia</historia>
+                <ocio dia="6">Complejo Arcaduram</ocio>
+            </excursiones>
+        </estancias>
+    </destino>
+</vacaciones>
+		
+	

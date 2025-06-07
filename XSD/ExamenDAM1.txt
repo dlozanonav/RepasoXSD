@@ -1,0 +1,73 @@
+ExamenDAM1.zip		Clave: parchis__
+
+
+El examen consta de dos ejercicios, el primero más largo supone 6 puntos y el segundo más corto 4 puntos de 10. Lee los enunciados y crea los esquemas xsd correspondientes.
+
+
+
+mondial1.xml
+
+Se debe crear un esquema que valide el documento xml teniendo en cuenta que:
+
+    • Se deben utilizar los tipos de datos primitivos adecuados donde proceda si no hay otra restricción: identificadores, booleanos, enteros, decimales, fecha, hora, fecha-hora, cadenas, …
+
+    • El documento puede estar formado por un país o más. El ejemplo facilitado sólo incluye uno, Albania, puede haber más.
+
+    • Es obligatorio que aparezca la capital del país como atributo.
+
+    • Para las abreviaturas de los países sólo se pueden utilizar dos letras mayúsculas sin tildes.
+
+    • Dónde se localiza la ciudad "located_at" es opcional.
+
+    • Los porcentages deben ser entre 0 (sin incluirlo) y 100.
+
+    • La latitud y la longitud sólo admiten un decimal.
+
+    • La latitud debe estar entre -90 y 90 grados.
+
+    • La longitud debe estar entre -180 (sin incluirlo) y 180 grados.
+
+    • El atributo year debe ser representado con dos caracteres numéricos.
+
+
+Penalización sobre una puntuación de 10 puntos que se considera el ejercicio:
+
+    • Si el propio esquema xsd no se valida conforme a las reglas de un propio esquema (-1/error).
+    • Si el documento xml no se valida conforme al esquema (-1/error).
+    • Si no se utiliza el tipo de dato primitivo adecuado (-0.25/tipo).
+    • Un uso inadecuado o innecesario del número de ocurrencias (-0.5/cada).
+    • Atributo capital incorrecto (-1).
+    • Tipo países incorrecto (-1).
+    • Tipo porcentajes incorrecto (-1).
+    • Validación de la latitud incorrecta (-1).
+    • Validación de la longitud incorrecta (-1).
+    • Atributo year incorrecto (-1).
+    • NO puede aparecer NI choice NI any en las definiciones (hasta -10).
+
+
+
+pom.xml
+
+Se debe crear un esquema que valide el documento xml teniendo en cuenta que:
+
+    • Se deben utilizar los tipos de datos primitivos adecuados donde proceda si no hay otra restricción.
+
+    • identificadores, boleanos, enteros, decimales, fecha, hora, fecha-hora, cadenas, …
+
+    • Los elementos "maven.compiler.source", "maven.compiler.target" y "release" deben tener el valor 17.
+
+    • Los elementos "modelVersion" y "version" deben seguir un patrón de uno o dos dígitos, un punto, uno o dos dígitos, otro punto y otra vez, uno o dos dígitos.
+
+    • El valor de la fase phase puede ser: "package", "compile", "test", "install", "verify" y "deploy".
+
+
+Penalización sobre una puntuación de 10 puntos que se considera el ejercicio:
+
+    • Si el propio esquema xsd no se valida conforme a las reglas de un propio esquema (-1/error).
+    • Si el documento xml no se valida conforme al esquema (-1/error).
+    • Si no se utiliza el tipo de dato primitivo adecuado (-0.25/tipo).
+    • Un uso inadecuado o innecesario del número de ocurrencias (-0.5/cada).
+    • Validación del valor 17 incorrecto (-1.5).
+    • Validación de la versión incorrecta (-1.5).
+    • Validación de los valores posibles de phase (-1.5).
+    • NO puede aparecer NI choice NI any en las definiciones (hasta -10).

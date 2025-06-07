@@ -1,0 +1,72 @@
+ExamenDAW1.zip		Clave: backgammon__
+
+
+El examen consta de dos ejercicios, el primero más largo supone 6 puntos y el segundo más corto 4 puntos de 10. Lee los enunciados y crea los esquemas xsd correspondientes.
+
+
+
+vacaciones.xml
+
+Se debe crear un esquema que valide el documento xml teniendo en cuenta que:
+
+    • Se deben utilizar los tipos de datos primitivos adecuados donde proceda si no hay otra restricción: identificadores, booleanos, enteros, decimales, fecha, hora, fecha-hora, cadenas, …
+
+    • La lista de vacaciones puede contener un número indeterminado de destinos.
+
+    • Los destinos tienen un identificador formado por una letra minúscula sin tildes y tres o dos dígitos.
+
+    • El tipo del destino puede ser "unico" o un "pack" y nada más.
+
+    • Cuando se haga referencia a los días, tanto elementos como atributos, sólo deben poder tomar un valor de 1 a 31.
+
+    • El "anio" de la fecha puede estar comprendido entre el año 2000 y el 2100 ambos incluidos.
+
+    • El elemento "duracion" tiene el atributo "dias" con valor fijo a "si".
+
+    • El elemento "viaje" tiene que tener el atributo "forma" obligatoriamente y su valor debe ser uno de los vehículos que aparecen.
+
+    • Los elementos que pueden aparecer más de una vez como mucho pueden aparecer 6 veces.
+
+    • Las "estrellas" de un hotel pueden ir de 1 a 5 incluyendo ambos valores.
+
+Penalización sobre una puntuación de 10 puntos que se considera el ejercicio:
+
+    • Si el propio esquema xsd no se valida conforme a las reglas de un propio esquema (-1/error).
+    • Si el documento xml no se valida conforme al esquema (-1/error).
+    • Si no se utiliza el tipo de dato primitivo adecuado (-0.25/tipo).
+    • Un uso inadecuado o innecesario del número de ocurrencias (-0.5/cada).
+    • Tipo destino incorrecto (-1).
+    • Tipo número de "dia" incorrecto (-1).
+    • Atributo "dias" incorrecto (-1).
+    • No reutilizar tipos definidos que se repitan (-1/cada).
+    • Tipo Email incorrecto (-1.5).
+    • Tipo "anio" incorrecto (-1).
+    • Atributo "forma" incorrecto (-1).
+    • Tipo "estrellas" incorrecto (-1).
+    • NO puede aparecer NI choice NI any en las definiciones (hasta -10).
+
+
+
+mondial4.xml
+
+Se debe crear un esquema que valide el documento xml teniendo en cuenta que:
+
+    • Se deben utilizar los tipos de datos primitivos adecuados donde proceda si no hay otra restricción: identificadores, booleanos, enteros, decimales, fecha, hora, fecha-hora, cadenas, …
+
+    • La latitud debe estar entre -90 y 90 grados ambos inclusive y puede contener hasta 2 decimales.
+
+    • La longitud debe estar entre -180 y 180 grados ambos inclusive y puede contener hasta 2 decimales.
+
+    • Hay que crear tres tipos de datos para los valores que empiecen por "sea-", "lake-" e "island-" no admitan valores que no empiecen así.
+
+
+Penalización sobre una puntuación de 10 puntos que se considera el ejercicio:
+
+    • Si el propio esquema xsd no se valida conforme a las reglas de un propio esquema (-1/error).
+    • Si el documento xml no se valida conforme al esquema (-1/error).
+    • Si no se utiliza el tipo de dato primitivo adecuado (-0.25/tipo).
+    • Un uso inadecuado o innecesario del número de ocurrencias (-0.5/cada).
+    • Validación de la latitud incorrecta (-1.5).
+    • Validación de la longitud incorrecta (-1.5).
+    • Validación de valores sea, lake y island incorrectos (-0.5/tipo).
+    • NO puede aparecer NI choice NI any en las definiciones (hasta -10).

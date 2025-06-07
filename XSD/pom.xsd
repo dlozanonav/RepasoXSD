@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="tipo-version" name="modelVersion"/>
+        <xs:element type="xs:string" name="groupId"/>
+        <xs:element type="xs:string" name="artifactId"/>
+        <xs:element type="xs:string" name="version"/>
+        <xs:element name="properties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="tipo-num" name="maven.compiler.source"/>
+              <xs:element type="tipo-num" name="maven.compiler.target"/>
+              <xs:element type="xs:string" name="main.class"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dependencies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dependency">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="groupId"/>
+                    <xs:element type="xs:string" name="artifactId"/>
+                    <xs:element type="tipo-version" name="version"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="build">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="plugins">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="plugin" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="groupId"/>
+                          <xs:element type="xs:string" name="artifactId"/>
+                          <xs:element type="tipo-version" name="version"/>
+                          <xs:element name="configuration" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="tipo-num" name="release"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="executions" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="execution">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="tipo-phase" name="phase"/>
+                                      <xs:element name="goals">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="goal"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="configuration">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="transformers">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="transformer">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="mainClass"/>
+                                                      </xs:sequence>
+                                                      <xs:attribute type="xs:string" name="implementation"/>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="tipo-num">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="17"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipo-version">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{1,2}\.\d{1,2}\.\d{1,2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipo-phase">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="package"/>
+      <xs:enumeration value="compile"/>
+      <xs:enumeration value="test"/>
+      <xs:enumeration value="install"/>
+      <xs:enumeration value="verify"/>
+      <xs:enumeration value="deploy"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
